@@ -1,0 +1,138 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  float: left;
+  width: 200px;
+  padding-top: 10px;
+  padding-left: 13px;
+}
+
+.search-bar {
+  width: 100%;
+  float: right;
+  width: 500px;
+  padding-right: 20px;
+  margin-right: 300px;
+}
+
+.search-bar input[type="text"],
+.search-bar button {
+  height: 40px; 
+  border-radius: 20px; 
+  border: 1px solid #000000;
+  padding: 0 120px; 
+  margin-left:70%; 
+}
+
+.main {
+  padding: 20px;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.featured-presentations {
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.featured-presentations h2 {
+  margin-top: 0;
+}
+
+.featured-presentations .presentation {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  box-sizing: border-box; 
+}
+
+.featured-presentations .presentation img {
+  width: 100%;
+}
+
+.featured-presentations .presentation h3 {
+  margin-top: 0;
+}
+
+.featured-presentations .presentation p {
+  margin-top: 10px;
+}
+
+.featured-presentations a {
+  color: #000;
+  text-decoration: none;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.upload-button,
+.login-button,
+.signup-button {
+  height: 40px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-button {
+  background-color: #027eb0;
+  color: white;
+  padding: 0 15px;
+  margin-left: 20%;
+}
+
+.login-button {
+  background-color: white;
+  color: #027eb0;
+  border: 1px solid #027eb0;
+  padding: 0 15px;
+}
+
+.signup-button {
+  background-color: transparent;
+  color: #027eb0;
+  border: none;
+  padding: 0 15px;
+}
+.menus {
+  text-align: center;
+  margin-top: 5px; 
+}
+.menus button {
+  font-size: 18px; 
+  border-radius: 25px;
+  padding: 10px 20px; 
+  margin: 5px; 
+  background-color: #ebf1f4;
+  border-color:#ebf1f4;
+  border: 2px;
+}
+.menus button:hover{
+background-color:#e3eaed;
+}
+.menus button:focus{
+  background-color:#303133;
+  color: white;
+}
+.banner{
+  display: flex;
+  align-items: center;
+}
